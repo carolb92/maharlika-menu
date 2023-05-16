@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  font-weight: 400px;
+  font-size: 3.6rem;
+  margin-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-size: 1.6rem;
+  color: #970404;
+  letter-spacing: 3px;
+}
+
+.appetizers,
+.entrees {
+  margin: 0 25px;
+}
+
+.heading-container {
+  max-width: 50%;
+  margin: 0 auto;
+  border: 3px solid #970404;
+}
+
+h3 {
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-align: center;
+  border: 1px solid #970404;
+  margin: 3px;
+  padding-block: 5px;
+}
+
+h4 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  margin: 15px 0 8px 0;
+}
+
+p {
+  font-family: "Wix Madefor Text", sans-serif;
+  font-size: 1.4rem;
+}
+
+.description {
+  margin-bottom: 7px;
+}
+
+.price {
+  margin-top: 0;
+}

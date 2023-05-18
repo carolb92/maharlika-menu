@@ -38,7 +38,7 @@ h2 {
 h3 {
   font-family: "EB Garamond", serif;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: center;
   border: 1px solid #970404;
   margin: 3px;
@@ -51,14 +51,14 @@ h3 {
 
 h4 {
   font-family: "EB Garamond", serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
   margin: 15px 0 8px 0;
 }
 
 p {
   font-family: "Wix Madefor Text", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .description {
@@ -83,12 +83,8 @@ footer {
   margin: 40px 25px 0 25px;
 }
 
+/**** TABLET STYLES ****/
 @media screen and (min-width: 768px) {
-  /* main {
-    display: grid;
-    grid-gap: 25px;
-  } */
-
   .content-container {
     display: grid;
     grid-gap: 25px;
@@ -130,4 +126,9 @@ footer {
   .entrees .heading-container {
     max-width: none;
   }
+}
+
+/**** LAPTOP/DESKTOP STYLES ***/
+main {
+  margin: 0 40px;
 }

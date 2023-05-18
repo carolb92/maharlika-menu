@@ -24,13 +24,14 @@ h2 {
 }
 
 .appetizers,
-.entrees {
+.entrees,
+.dessert {
   margin: 0 25px;
 }
 
 .heading-container {
   max-width: 50%;
-  margin: 0 auto;
+  margin: 40px auto;
   border: 3px solid #970404;
 }
 
@@ -42,6 +43,10 @@ h3 {
   border: 1px solid #970404;
   margin: 3px;
   padding-block: 5px;
+}
+
+.menu-item-container {
+  margin-bottom: 30px;
 }
 
 h4 {
@@ -61,5 +66,19 @@ p {
 }
 
 .price {
-  margin-top: 0;
+  margin: 7px 0;
+  color: #970404;
+}
+
+.protein-price {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.protein {
+  margin: 7px 0;
+}
+
+footer {
+  margin: 40px 25px 0 25px;
 }

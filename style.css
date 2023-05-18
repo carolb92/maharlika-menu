@@ -82,3 +82,52 @@ p {
 footer {
   margin: 40px 25px 0 25px;
 }
+
+@media screen and (min-width: 768px) {
+  /* main {
+    display: grid;
+    grid-gap: 25px;
+  } */
+
+  .content-container {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "a e"
+      "a e"
+      "d e";
+  }
+
+  .appetizers {
+    grid-area: a;
+  }
+
+  .entrees {
+    grid-area: e;
+  }
+
+  .dessert {
+    border: 1px solid #970404;
+    outline: 3px solid #970404;
+    outline-offset: 5px;
+    padding: 20px;
+    grid-area: d;
+  }
+
+  .dessert h3 {
+    border: none;
+  }
+
+  .dessert .heading-container {
+    max-width: none;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .appetizers .heading-container,
+  .entrees .heading-container {
+    max-width: none;
+  }
+}
